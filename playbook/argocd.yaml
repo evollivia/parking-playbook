@@ -1,6 +1,6 @@
 ---
 - name: Install and Configure Argo CD on MicroK8s
-  hosts: control
+  hosts: gitops1
   become: true
 
   tasks:

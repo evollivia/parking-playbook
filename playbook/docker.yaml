@@ -1,6 +1,6 @@
 ---
 - name: Install Docker on Ubuntu
-  hosts: control
+  hosts: gitops1
   become: yes
 
   vars:

@@ -1,6 +1,6 @@
 ---
 - name: Setup Jenkins on GitOps1
-  hosts: control
+  hosts: gitops1
   become: true
 
   tasks:
