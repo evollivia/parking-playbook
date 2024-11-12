@@ -2,6 +2,15 @@
 - name: Install and Configure MicroK8s
   hosts: gitops2
   become: yes
+  vars:
+    hostname: gitops2
+    timezone: Asia/Seoul
+    ip_address: 10.0.2.31/24
+    gateway: 10.0.2.1
+    dns_servers:
+      - 8.8.8.8
+      - 8.8.4.4
+    user: ubuntu
 
   tasks:
     - name: Set hostname
